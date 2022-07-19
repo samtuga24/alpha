@@ -1,24 +1,48 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BridgeComponent } from './components/BridgeComponent';
+import { BusinessComponent } from './components/BusinessComponent';
+// import { ConsumerComponent } from './components/ConsumerComponent';
+import { CreateManageComponent } from './components/CreateManageComponent';
+import { CustomerSupportComponent } from './components/CustomerSupportComponent';
+import { ExclusiveComponent } from './components/ExclusiveComponent';
+import { FaqsComponent } from './components/FaqsComponent';
+import { FooterComponent } from './components/FooterComponent';
+import { ManageComponent } from './components/ManageComponent';
+import { MessageComponent } from './components/MessageComponent';
+import { Navigation } from './components/Navigation';
+import { NewsetterComponent } from './components/NewsetterComponent';
+import { SellingComponent } from './components/SellingComponent';
+import { Success } from './components/Success';
+import { VarietyComponent } from './components/VarietyComponent';
+import { Home } from './Home';
+
+import './Mobile.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Navigation/>
+    // <IntroComponent/>
+    <Home/>
+    // <ReviewComponent/>
+    // <BusinessGrowth/>
+    // <Feature/>
+    // <SellingComponent/>
+  // <ExclusiveComponent/>
+    // <BusinessComponent/>
+  // <ManageComponent/>
+      // <ConsumerComponent/>
+    // <BridgeComponent/>
+    // <VarietyComponent/>
+    // <CreateManageComponent/>
+    // <CustomerSupportComponent/>
+    // <FaqsComponent/>
+    // <MessageComponent/>
+    // <Success/>
+    // <NewsetterComponent/>
+    // <FooterComponent/>
   );
 }
 

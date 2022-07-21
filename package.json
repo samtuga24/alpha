@@ -2,7 +2,7 @@
   "name": "alpha-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://samtuga24.github.io/my-app",
+  "homepage": "http://samtuga24.github.io/alpha",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

@@ -1,11 +1,17 @@
 import React from 'react'
 import loupe from '../icons/loupe.svg'
 import book from '../icons/bookmark.svg'
+import orange_book from '../icons/orange-bookmark.svg'
+import orange_chat from '../icons/orange-live-chat.svg'
 import chat from '../icons/chat.svg'
 import { AlphaFeature, AwesomeFeature, BookmarkCard, CardDesc, CardDescHeader, CardWrap, Container, FeatureHeaderDiv, FeatureWrapper, ImageWrap, LiveChatCard, LocacalCard, LocacalCardWrap } from './FeatureStyle'
+import { useState } from 'react'
 
 
 export const Feature = () => {
+    const [firstEnter, setFirstEnter] = useState(false);
+    const [secondEnter, setSecondEnter] = useState(book);
+    const [thirdEnter, setThirdEnter] = useState(chat);
   return (
     <Container id='feature'>
         <FeatureWrapper>
@@ -23,16 +29,16 @@ export const Feature = () => {
                     </LocacalCardWrap>
                 </LocacalCard>
                 <BookmarkCard>
-                <LocacalCardWrap>
-                        <ImageWrap className='card-image-wrap'><img src={book} alt="" /></ImageWrap>
+                <LocacalCardWrap onMouseOver={()=>setSecondEnter(orange_book)} onMouseLeave={()=>setSecondEnter(book)}>
+                        <ImageWrap className='card-image-wrap'><img src={secondEnter} alt="" /></ImageWrap>
                         <CardDescHeader><p>Bookmark in Folders</p></CardDescHeader>
                         <CardDesc><p>Save products/services for later into <br/>organised 
                             folders & come back to them <br/>when you’re ready for purchase.</p></CardDesc>
                     </LocacalCardWrap>
                 </BookmarkCard>
                 <LiveChatCard>
-                <LocacalCardWrap>
-                        <ImageWrap className='card-image-wrap'><img src={chat} alt="" /></ImageWrap>
+                <LocacalCardWrap onMouseOver={()=>setThirdEnter(orange_chat)} onMouseLeave={()=>setThirdEnter(chat)}>
+                        <ImageWrap className='card-image-wrap'><img src={thirdEnter} alt="" /></ImageWrap>
                         <CardDescHeader><p>Live Chat</p></CardDescHeader>
                         <CardDesc><p>A line of communication is always <br/>open for you to make 
                         inquiries if you’re a customer or provide a response if <br/>you’re a vendor.</p></CardDesc>

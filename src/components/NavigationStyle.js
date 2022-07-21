@@ -15,6 +15,7 @@ export const Container = styled.div`
     // position: relative; 
     position: fixed;
     left: 0;
+    background-color: #FFF8EB;
 `;
 
 export const Wrapper = styled.div`

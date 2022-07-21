@@ -1,5 +1,6 @@
 import React from 'react'
 import loupe from '../icons/loupe.svg'
+import default_loupe from '../icons/default_loupe.svg'
 import book from '../icons/bookmark.svg'
 import orange_book from '../icons/orange-bookmark.svg'
 import orange_chat from '../icons/orange-live-chat.svg'
@@ -9,7 +10,7 @@ import { useState } from 'react'
 
 
 export const Feature = () => {
-    const [firstEnter, setFirstEnter] = useState(false);
+    const [firstEnter, setFirstEnter] = useState(default_loupe);
     const [secondEnter, setSecondEnter] = useState(book);
     const [thirdEnter, setThirdEnter] = useState(chat);
   return (
@@ -21,8 +22,8 @@ export const Feature = () => {
             </FeatureHeaderDiv>
             <CardWrap>
                 <LocacalCard>
-                    <LocacalCardWrap>
-                        <ImageWrap className='card-image-wrap'><img src={loupe} alt="" /></ImageWrap>
+                    <LocacalCardWrap onMouseOver={()=>setFirstEnter(loupe)} onMouseLeave={()=>setFirstEnter(default_loupe)}>
+                        <ImageWrap className='card-image-wrap'><img src={firstEnter} alt="" /></ImageWrap>
                         <CardDescHeader><p>Local Directory</p></CardDescHeader>
                         <CardDesc><p>Search for product/service providers or <br/>
                             list your business on Alpha to connect to <br/>thousands of customers around you.</p></CardDesc>

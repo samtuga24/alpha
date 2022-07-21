@@ -3,10 +3,8 @@ import { device } from './MobileDevice';
 import background from '../background/intro-background.svg'
 
 export const Container = styled.div`
-padding-top: 15%;
+padding-top: 6%;
 background: #FFF8EB;
-
-
 `;
 
 export const Wrapper = styled.div`

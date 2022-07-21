@@ -5,7 +5,7 @@ import step_3 from '../icons/step-3.svg'
 import step_4 from '../icons/step-4.svg'
 import nurture_image from '../icons/nurture.svg'
 import manage_image from '../icons/manage-image.svg'
-import sales from '../icons/make_sales.svg'
+import sales from '../icons/make_sales.png'
 import reply from '../icons/reply.svg'
 
 import { InfoList, InfoList2, InfoList3, InfoList4, ManageBusinessStepTwo, ManageContainer, ManageDiv, ManageHeader, ManageImageDiv, ManageImageWrap, ManageInfo, ManageList, ManageListDiv, ManageListDiv2, ManageStep, ManageWrapper, MobileHeader, MobileImage, MobileImageWrap, MobileList, MobileManageBusinessImage, MobileNumber, MobileNumberWrap, MobileText, MobileView, Number, NumberFour, NumberThree, NumberTwo, NumberWrap, NumberWrap2, NumberWrap3, NumberWrap4, Step, Step2, Step3, Step4, TextWrap, TextWrap2 } from './ManageComponentStyle'

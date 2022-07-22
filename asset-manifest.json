@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alpha/static/css/main.fb5714ba.css",
-    "main.js": "/alpha/static/js/main.2a714287.js",
+    "main.css": "/alpha/static/css/main.88e5e069.css",
+    "main.js": "/alpha/static/js/main.7475f27b.js",
     "static/js/787.67743081.chunk.js": "/alpha/static/js/787.67743081.chunk.js",
     "static/media/mobile-home-image.svg": "/alpha/static/media/mobile-home-image.b5f88632f5161f690c7556562b9b786e.svg",
     "static/media/3.svg": "/alpha/static/media/3.040e20180ef912ebdacc69d9697048ab.svg",
@@ -92,13 +92,13 @@
     "static/media/search.svg": "/alpha/static/media/search.9b4e237830869f6a2925307ff357680d.svg",
     "static/media/business.svg": "/alpha/static/media/business.3e4abdf1d039fbc450f23e808a6964b3.svg",
     "static/media/twitter.svg": "/alpha/static/media/twitter.ebe3690b7b43e7e793d7a2621f93466a.svg",
+    "index.html": "/alpha/index.html",
     "static/media/step-3.svg": "/alpha/static/media/step-3.3f3fa406c525d8d14e8e1a798fa72b80.svg",
     "static/media/instagram.svg": "/alpha/static/media/instagram.ab81ae0aa3079719165dd91f76bbd164.svg",
     "static/media/business-life.svg": "/alpha/static/media/business-life.f7cc61982464e100052e471526b61512.svg",
     "static/media/step-5.svg": "/alpha/static/media/step-5.99edb26b83790274af2bb61ac04e8e04.svg",
     "static/media/step-2.svg": "/alpha/static/media/step-2.b18ffb2d1b7ed3b7e1681a76dc539ac6.svg",
     "static/media/help-circle.svg": "/alpha/static/media/help-circle.688f5a535acd58c14445d9915afd80c6.svg",
-    "index.html": "/alpha/index.html",
     "static/media/orange-bookmark.svg": "/alpha/static/media/orange-bookmark.272a1eb390e23ff25c80c89a7fff77ee.svg",
     "static/media/linkedin.svg": "/alpha/static/media/linkedin.fe5eaeea69091b135a4c08dd43512bae.svg",
     "static/media/bookmark.svg": "/alpha/static/media/bookmark.23b22939e9ddcacbeffb58d83298a51d.svg",
@@ -111,12 +111,12 @@
     "static/media/success-icon.svg": "/alpha/static/media/success-icon.c422bbe79098bb7423122695f981f343.svg",
     "static/media/step-1.svg": "/alpha/static/media/step-1.455ad37f705beb9f75708c3d1c65f41e.svg",
     "static/media/arrow-down.svg": "/alpha/static/media/arrow-down.59a8c9963271d395a90e41fa2de81d1d.svg",
-    "main.fb5714ba.css.map": "/alpha/static/css/main.fb5714ba.css.map",
-    "main.2a714287.js.map": "/alpha/static/js/main.2a714287.js.map",
+    "main.88e5e069.css.map": "/alpha/static/css/main.88e5e069.css.map",
+    "main.7475f27b.js.map": "/alpha/static/js/main.7475f27b.js.map",
     "787.67743081.chunk.js.map": "/alpha/static/js/787.67743081.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb5714ba.css",
-    "static/js/main.2a714287.js"
+    "static/css/main.88e5e069.css",
+    "static/js/main.7475f27b.js"
   ]
 }

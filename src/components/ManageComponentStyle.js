@@ -103,7 +103,6 @@ width: 100%;
 margin-bottom: 2vw;
 position: absolute;
 top: 0;
-box-sizing: border-box;
 `;
 
 

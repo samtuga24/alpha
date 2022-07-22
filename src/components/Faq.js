@@ -286,7 +286,7 @@ flex: 1;
 
 export const ArrowWrap = styled.div`
 position: absolute;
-
+transition: transform .5s linear;
 display: flex;
 align-items: center;
 @media ${device.mobilexxS} { 

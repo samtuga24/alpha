@@ -18,15 +18,21 @@ export const FaqsComponent = () => {
         <FWrapper>
             <AlphaFaqs><p>ALPHA — FAQS</p></AlphaFaqs>
             <FaqsHeader><p>Frequently Asked Questions</p></FaqsHeader>
-            <FaqWrap>
+            <FaqWrap style={isClicked ? 
+                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
+                borderWidth: '0.2vw',
+                borderStyle: 'solid',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setIsClicked(!isClicked)}>
                 <FAQ className={isClicked ? 'faqs-weight': null}><p>How can I register an account on Alpha?</p></FAQ>
                 <Arrow>
                     <UpArrow className=''>
-                        <ArrowWrap>{isClicked && (<img src={up} alt="" className='manage-business'/>)}</ArrowWrap>
+                        <ArrowWrap>{isClicked && (<img src={up} alt="" className='manage-business faq-wrap'/>)}</ArrowWrap>
                     </UpArrow>
                     <DownArrow>
-                        <ArrowWrap>{!isClicked && (<img src={down} alt="" className='manage-business'/>)}</ArrowWrap>
+                        <ArrowWrap>{!isClicked && (<img src={down} alt="" className='manage-business faq-wrap'/>)}</ArrowWrap>
                     </DownArrow>
         
                 </Arrow>    
@@ -57,7 +63,13 @@ export const FaqsComponent = () => {
         </FaqWrap>
 
 
-        <FaqWrap>
+        <FaqWrap style={secondClicked ? 
+                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
+                borderWidth: '0.2vw',
+                borderStyle: 'solid',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setSecondClicked(!secondClicked)}>
                 <FAQ className={secondClicked ? 'faqs-weight': null}><p>How can I search for products or services on Alpha</p></FAQ>
                 <Arrow>
@@ -103,7 +115,13 @@ export const FaqsComponent = () => {
 
 
 
-        <FaqWrap>
+        <FaqWrap style={thirdClicked ? 
+                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
+                borderWidth: '0.2vw',
+                borderStyle: 'solid',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setThirdClicked(!thirdClicked)}>
                 <FAQ className={thirdClicked ? 'faqs-weight': null}><p>How do I add a business or products to my favourite?</p></FAQ>
                 <Arrow>
@@ -151,7 +169,13 @@ export const FaqsComponent = () => {
 
 
         
-        <FaqWrap>
+        <FaqWrap style={fourthClicked ? 
+                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
+                borderWidth: '0.2vw',
+                borderStyle: 'solid',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setFourthClicked(!fourthClicked)}>
                 <FAQ className={fourthClicked ? 'faqs-weight': null}><p>Should I communicate with the business owner outside Alpha?</p></FAQ>
                 <Arrow>
@@ -196,7 +220,13 @@ export const FaqsComponent = () => {
 
 
 
-        <FaqWrap>
+        <FaqWrap style={fifthClicked ? 
+                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
+                borderWidth: '0.2vw',
+                borderStyle: 'solid',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setFifthClicked(!fifthClicked)}>
                 <FAQ className={fifthClicked ? 'faqs-weight': null}><p>How do I write a review?</p></FAQ>
                 <Arrow>

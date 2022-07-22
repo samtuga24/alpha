@@ -171,12 +171,9 @@ margin-top: -20px;
 
 }
 
-.variety-icons img{
-  width: 85%;
-}
 
 .variety-image img{
-  width: 100%;
+  width: 100%;  
 }
 
 .create-text-header{
@@ -602,11 +599,10 @@ border: 2px solid red;
 }
 
 #tryagain{
-  outline: 1px solid;
-
+  border: 0.1vw solid;
   border-image-source: linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%);
   border-image-slice: 1;
-  
+
   }
 
   .shopping-lady img{
@@ -657,10 +653,6 @@ border: 2px solid red;
 
 .manage-small img{
   width: 90%;
-}
-
- .variety-icon img{
-  width: 80%;
 }
 
 
@@ -718,8 +710,12 @@ text-fill-color: transparent;
 
 
 .add-border{
-  outline: 2px solid;  
+  box-sizing:border-box;
+  border: 0.2vw solid;
+  border-image-source: linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%);
+  border-image-slice: 1; 
   }
+
 
   #info-list{
     box-sizing:border-box;

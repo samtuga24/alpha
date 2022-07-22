@@ -61,7 +61,7 @@ export const ManageComponent = () => {
             <ManageDiv>
                 <ManageHeader><p>Manage your Business <br/>Account</p></ManageHeader>
                 <ManageInfo>
-                    <InfoList className={indices[counter]==1? 'add-border':null} id="info-list">
+                    <InfoList className={indices[counter]==1? 'add-border':null} id="info-list" style={{borderRadius:'1vw'}}>
                         <Number>
                             <NumberWrap className='manage-business'><img src={step_1} alt="" /></NumberWrap>
                         </Number>

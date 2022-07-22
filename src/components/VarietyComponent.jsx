@@ -43,21 +43,21 @@ export const VarietyComponent = () => {
 
             <VarietyIcons>
               <FirstCircle onMouseOver={()=>setOnHover(f_white)} onMouseLeave={()=>setOnHover(variety)}>
-                <VarietyIconWrap className='manage-business on-hover'><img src={onHover} alt="" /></VarietyIconWrap>  
+                <VarietyIconWrap className='variety-image'><img src={onHover} alt="" /></VarietyIconWrap>  
               </FirstCircle>
 
               <SecondCircle onMouseOver={()=>setFirst(s_white)} onMouseLeave={()=>setFirst(second)}>
-                <VarietyIconWrap className='manage-business'><img src={first} alt="" /></VarietyIconWrap>
+                <VarietyIconWrap className='variety-image'><img src={first} alt="" /></VarietyIconWrap>
                 
               </SecondCircle>
 
               <ThirdCircle onMouseOver={()=>setSecond(t_white)} onMouseLeave={()=>setSecond(third)}>
-                <VarietyIconWrap className='manage-business'><img src={v_second} alt="" /></VarietyIconWrap>
+                <VarietyIconWrap className='variety-image'><img src={v_second} alt="" /></VarietyIconWrap>
                 
               </ThirdCircle>
 
               <FourthCircle onMouseOver={()=>setThird(fo_white)} onMouseLeave={()=>setThird(fourth)}>
-                <VarietyIconWrap className='manage-business'><img src={v_third} alt="" /></VarietyIconWrap>
+                <VarietyIconWrap className='variety-image'><img src={v_third} alt="" /></VarietyIconWrap>
                 
               </FourthCircle>
 

@@ -61,7 +61,15 @@ export const ManageComponent = () => {
             <ManageDiv>
                 <ManageHeader><p>Manage your Business <br/>Account</p></ManageHeader>
                 <ManageInfo>
-                    <InfoList className={indices[counter]==1? 'add-border':null} id="info-list" style={{borderRadius:'1vw'}}>
+                    <InfoList  style={indices[counter]==1? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null}  id="info-list">
                         <Number>
                             <NumberWrap className='manage-business'><img src={step_1} alt="" /></NumberWrap>
                         </Number>
@@ -69,7 +77,15 @@ export const ManageComponent = () => {
                         <Step><p>Stay connected with buyers through real-time notification</p></Step>
                     </InfoList>
 
-                    <InfoList2 className={indices[counter]==2? 'add-border':null} id="info-list2">
+                    <InfoList2 style={indices[counter]==2? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null} id="info-list2">
                         <Number>
                             <NumberWrap2 className='manage-business'><img src={step_2} alt="" /></NumberWrap2>
                         </Number>
@@ -79,7 +95,15 @@ export const ManageComponent = () => {
 
 
                     
-                    <InfoList3 className={indices[counter]==3? 'add-border':null} id="info-list3">
+                    <InfoList3 style={indices[counter]==3? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null} id="info-list3">
                         <Number>
                             <NumberWrap3 className='manage-business'><img src={step_3} alt="" /></NumberWrap3>
                         </Number>
@@ -88,7 +112,15 @@ export const ManageComponent = () => {
                     </InfoList3>
 
 
-                    <InfoList4 className={indices[counter]==4 ? 'try-again add-border ':null} id={indices[counter]==3? 'tryagain':null}>
+                    <InfoList4 style={indices[counter]==4? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null} id={indices[counter]==3? 'tryagain':null}>
                         <Number>
                             <NumberWrap4 className='manage-business'><img src={step_4} alt="" /></NumberWrap4>
                         </Number>
@@ -108,14 +140,29 @@ export const ManageComponent = () => {
         {/* ################################################################ Mobile View  */}
         <MobileView>
         <MobileHeader><p>Manage your Business <br/>Account</p></MobileHeader>
-        <MobileList className={indices[counter]==1? 'add-border':null}>
+        <MobileList  style={indices[counter]==1? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',                
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null}>
             <MobileNumber>
                 <MobileNumberWrap className='manage-business'><img src={step_1} alt="" /></MobileNumberWrap>
             </MobileNumber>
             <MobileText><p>Stay connected with buyers through <br/>realtime notification.</p></MobileText>
         </MobileList>
 
-        <MobileList className={indices[counter]==2? 'add-border':null}>
+        <MobileList  style={indices[counter]==2? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null}>
             <MobileNumber>
                 <MobileNumberWrap className='manage-business'><img src={step_2} alt="" /></MobileNumberWrap>
             </MobileNumber>
@@ -123,14 +170,30 @@ export const ManageComponent = () => {
         </MobileList>
 
         
-        <MobileList className={indices[counter]==3? 'add-border':null}>
+        <MobileList  style={indices[counter]==3? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null}>
             <MobileNumber>
                 <MobileNumberWrap className='manage-business'><img src={step_3} alt="" /></MobileNumberWrap>
             </MobileNumber>
             <MobileText><p>Reply to enquires through live chat</p></MobileText>
         </MobileList>
 
-        <MobileList className={indices[counter]==4? 'add-border':null} id={indices[counter]==3? 'tryagain':null}>
+        <MobileList  style={indices[counter]==4? {
+                        border: 'double 2px transparent',
+                        backgroundOrigin: 'border-box',
+                        backgroundClip: 'content-box, border-box',
+                    
+                        backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                        borderImageSlice: 1
+                     
+                    }: null} id={indices[counter]==3? 'tryagain':null}>
             <MobileNumber>
                 <MobileNumberWrap className='manage-business'><img src={step_4} alt="" /></MobileNumberWrap>
             </MobileNumber>

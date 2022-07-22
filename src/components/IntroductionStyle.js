@@ -180,7 +180,9 @@ justify-content: end;
 
 export const MobileView = styled.div`
 
-
+background: url(${background});
+background-size: cover;
+background-position: center;
 
 @media ${device.mobilexxxS} { 
     display: flex;

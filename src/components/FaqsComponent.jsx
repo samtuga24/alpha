@@ -19,9 +19,10 @@ export const FaqsComponent = () => {
             <AlphaFaqs><p>ALPHA — FAQS</p></AlphaFaqs>
             <FaqsHeader><p>Frequently Asked Questions</p></FaqsHeader>
             <FaqWrap style={isClicked ? 
-                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
-                borderWidth: '0.2vw',
-                borderStyle: 'solid',
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
                 borderImageSlice: 1
             }
                 : null}>
@@ -64,9 +65,10 @@ export const FaqsComponent = () => {
 
 
         <FaqWrap style={secondClicked ? 
-                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
-                borderWidth: '0.2vw',
-                borderStyle: 'solid',
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
                 borderImageSlice: 1
             }
                 : null}>
@@ -116,9 +118,10 @@ export const FaqsComponent = () => {
 
 
         <FaqWrap style={thirdClicked ? 
-                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
-                borderWidth: '0.2vw',
-                borderStyle: 'solid',
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
                 borderImageSlice: 1
             }
                 : null}>
@@ -170,9 +173,10 @@ export const FaqsComponent = () => {
 
         
         <FaqWrap style={fourthClicked ? 
-                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
-                borderWidth: '0.2vw',
-                borderStyle: 'solid',
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
                 borderImageSlice: 1
             }
                 : null}>
@@ -286,7 +290,14 @@ export const FaqsComponent = () => {
         <MobileView>
         <AlphaFaqs><p>ALPHA — FAQS</p></AlphaFaqs>
             <FaqsHeader><p>Frequently Asked <br/>Questions</p></FaqsHeader>
-            <FaqWrap>
+            <FaqWrap style={isClicked ? 
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setIsClicked(!isClicked)}>
                 <FAQ className={isClicked ? 'faqs-weight': null}><p>How can i register <br/>an account on Alpha?</p></FAQ>
                 <Arrow>
@@ -317,7 +328,14 @@ export const FaqsComponent = () => {
         </FaqWrap>
 
 
-        <FaqWrap>
+        <FaqWrap style={secondClicked ? 
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setSecondClicked(!secondClicked)}>
                 <FAQ className={secondClicked ? 'faqs-weight': null}><p>How can I search for products or services on Alpha</p></FAQ>
                 <Arrow>
@@ -353,7 +371,14 @@ export const FaqsComponent = () => {
 
 
 
-        <FaqWrap>
+        <FaqWrap style={thirdClicked ? 
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setThirdClicked(!thirdClicked)}>
                 <FAQ className={thirdClicked ? 'faqs-weight': null}><p>How do I add a business or product to my Favorites?</p></FAQ>
                 <Arrow>
@@ -386,7 +411,14 @@ export const FaqsComponent = () => {
 
 
         
-        <FaqWrap>
+        <FaqWrap style={fourthClicked ? 
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setFourthClicked(!fourthClicked)}>
                 <FAQ className={fourthClicked ? 'faqs-weight': null}><p>Should I communicate with the business owner outside Alpha?</p></FAQ>
                 <Arrow>
@@ -419,7 +451,14 @@ export const FaqsComponent = () => {
 
 
 
-        <FaqWrap>
+        <FaqWrap style={fifthClicked ? 
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
+                borderImageSlice: 1
+            }
+                : null}>
             <FaqsDiv onClick={()=>setFifthClicked(!fifthClicked)}>
                 <FAQ className={fifthClicked ? 'faqs-weight': null}><p>How do I write a review?</p></FAQ>
                 <Arrow>
@@ -437,9 +476,9 @@ export const FaqsComponent = () => {
                    <Answer>
                    <AnswerTextWrap>
                        <p>From the business page, click on the "Write a Review" button. From the homepage or your profile page, select 
-   "Write Review" Use the format [Place name] [Location] for best results. If you cannot find the place you are looking for,
-   click the "Add business" to add that business. Your review will immediately appear in your profile page and the business
-   page.
+                        "Write Review" Use the format [Place name] [Location] for best results. If you cannot find the place you are looking for,
+                        click the "Add business" to add that business. Your review will immediately appear in your profile page and the business
+                        page.
                        </p>
                    </AnswerTextWrap>
                    <AnswerDownloadStore>

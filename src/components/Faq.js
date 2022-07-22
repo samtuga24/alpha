@@ -147,90 +147,133 @@ margin-top: -3vw;
 export const FaqWrap = styled.div`
 border: 0.8px solid #CCCCCC;
 border-radius: 2vw;
-// padding-left: 2%;
-// padding-right: 2%;
-// padding-bottom: 2%;
 height: auto;
-
 background: #FFFFFF;
 
 @media ${device.mobilexxS} { 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
     margin-bottom: 5%;
 }
 
 @media ${device.mobileS} { 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
     margin-bottom: 5%;
 }
 
 @media ${device.mobilexS} { 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
     margin-bottom: 5%;
 }
 
 @media ${device. mobileM} { 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
     margin-bottom: 5%;
 }
 
 @media ${device. mobileL} { 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
     margin-bottom: 5%;
 }
 
 @media ${device. mobileLx} { 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 0%;
     margin-bottom: 5%;
 }
 @media ${device. tablet} { 
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 0%;
-    margin-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     border-radius: 1vw;
+    margin-bottom: 2%;
 }
 
 @media ${device.laptop} { 
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 0%;
-    margin-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     border-radius: 1vw;
+    margin-bottom: 2%;
 }
 
 @media ${device. laptopL} { 
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 0%;
-    margin-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     border-radius: 1vw;
+    margin-bottom: 2%;
 }
 
 @media ${device. desktop} { 
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 0%;
-    margin-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     border-radius: 1vw;
+    margin-bottom: 2%;
 }
 `;
 
 export const FaqsDiv = styled.div`
 display: flex;
 flex: 5;
+margin-left: 2%;
+margin-right: 2%;
+
+@media ${device.mobilexxS} { 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media ${device.mobileS} { 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media ${device.mobilexS} { 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media ${device. mobileM} { 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media ${device. mobileL} { 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media ${device. mobileLx} { 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+@media ${device. tablet} { 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media ${device.laptop} { 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media ${device. laptopL} { 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media ${device. desktop} { 
+    margin-left: 2%;
+    margin-right: 2%;
+}
 `;
 
 export const FAQ = styled.div`
@@ -371,6 +414,9 @@ flex-direction: column;
 background: #FFF8EB;
 border-radius: 16px;
 padding-left: 2%;
+margin-left: 2%;
+margin-right: 2%;
+
 
 @media ${device.mobilexxS} { 
     padding-left: 5%;

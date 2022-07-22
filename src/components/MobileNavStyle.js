@@ -4,6 +4,7 @@ export const MobileNavWrapper = styled.div`
 background: #0A0C14;
 border-radius: 24px 24px 0px 0px;
 position: fixed;
+
 bottom: 0;
 width: 100%;
 padding-top: 8vw;

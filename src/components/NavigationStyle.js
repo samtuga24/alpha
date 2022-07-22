@@ -82,6 +82,7 @@ export const MobileWrapper = styled.div`
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 2%;
+    padding-bottom: 2%;
     @media ${device.mobilexxxS} { 
       display: flex;
     }

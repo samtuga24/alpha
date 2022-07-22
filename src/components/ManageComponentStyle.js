@@ -280,18 +280,20 @@ display: flex;
 flex: 5;
 background: #FFFFFF;
 border-radius: 2vw;
-padding-left: 2%;
+// padding-left: 2%;
 margin-bottom: 5vw;
 margin-right: 5%;
 margin-left: 5%;
-padding-top: 2vw;
-padding-bottom: 2vw;
+// padding-top: 2vw;
+// padding-bottom: 2vw;
 `;
 
 export const MobileNumber = styled.div`
 flex: 1;
 display: flex;
 align-items: center;
+padding-left: 2%;
+padding-top: 2vw;
 `;
 
 export const MobileText = styled.div`

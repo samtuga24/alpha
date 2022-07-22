@@ -18,7 +18,7 @@ padding-right: 10%;
     padding-left: 5%;
 padding-right: 5%;
 }
-}
+
 
 @media ${device.mobileS} { 
     flex-direction: column;

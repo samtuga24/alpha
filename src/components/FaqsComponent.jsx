@@ -225,9 +225,10 @@ export const FaqsComponent = () => {
 
 
         <FaqWrap style={fifthClicked ? 
-                {borderImageSource: "linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)",
-                borderWidth: '0.2vw',
-                borderStyle: 'solid',
+                {border: 'double 2px transparent',
+                backgroundOrigin: 'border-box',
+                backgroundClip: 'content-box, border-box',      
+                backgroundImage: 'linear-gradient(white,white),linear-gradient(96.38deg, #FFA500 2.96%, #D0A41A 8.96%, #8DA23F 14.17%, #75A24C 21.8%, #5CA15A 29.43%, #32A071 36.26%)',
                 borderImageSlice: 1
             }
                 : null}>

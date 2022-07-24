@@ -4,6 +4,46 @@ import mobile_background from '../background/background.svg'
 import { device } from './MobileDevice';
 export const ManageContainer = styled.div`
 background: #EAFBF3;
+
+@media ${device.mobilexxS} { 
+    height: auto;
+    }
+    
+    @media ${device.mobileS} { 
+        height: auto; 
+    }
+    
+    @media ${device.mobilexS} { 
+        height: auto;
+    }
+    
+    @media ${device. mobileM} { 
+        height: auto;
+    }
+    
+    @media ${device. mobileL} { 
+        height: auto;
+    }
+    
+    @media ${device. mobileLx} { 
+        height: auto; 
+    }
+    @media ${device. tablet} { 
+        height: 60vw;
+
+    }
+    
+    @media ${device.laptop} { 
+        height: 60vw;
+    }
+    
+    @media ${device. laptopL} { 
+        height: 60vw;
+    }
+    
+    @media ${device. desktop} { 
+        height: 60vw;
+    }
 `;
 
 export const ManageWrapper = styled.div`
@@ -284,8 +324,6 @@ border-radius: 2vw;
 margin-bottom: 5vw;
 margin-right: 5%;
 margin-left: 5%;
-// padding-top: 2vw;
-// padding-bottom: 2vw;
 `;
 
 export const MobileNumber = styled.div`

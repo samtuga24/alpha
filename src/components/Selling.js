@@ -17,6 +17,7 @@ padding-right: 10%;
     flex-direction: column;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
 
 
@@ -24,58 +25,67 @@ padding-right: 5%;
     flex-direction: column;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device.mobilexS} { 
     flex-direction: column;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device. mobileM} { 
 flex-direction: column;
 padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
 
 @media ${device. mobileL} { 
     flex-direction: column;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device. mobileLx} { 
     flex-direction: column;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 @media ${device. tablet} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: 50vh;
 }
-}
+
 
 @media ${device.laptop} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 @media ${device. laptopL} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 @media ${device. desktop} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 `;
 

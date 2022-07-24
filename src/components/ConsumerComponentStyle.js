@@ -3,6 +3,7 @@ import { device } from './MobileDevice';
 
 export const ConsumerContainer = styled.div`
 background: #EAFBF3;
+padding-top: 5%;
 `;
 
 export const ConsumerWrapper = styled.div`
@@ -11,6 +12,7 @@ flex: 2;
 padding-left: 10%;
 padding-right: 10%;
 padding-top: 5%;
+
 
 @media ${device.mobilexxS} { 
     flex-direction: column-reverse;
@@ -37,6 +39,7 @@ padding-top: 5%;
     }
     @media ${device. tablet} { 
         flex-direction: row;
+       
     }
     
     @media ${device.laptop} { 

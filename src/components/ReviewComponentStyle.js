@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { device } from './MobileDevice';
 
 export const Container = styled.div`
-position: relative;
 background: #FFF8EB;
+position: relative;
 `;
 
 export const Wrapper = styled.div`
@@ -11,6 +11,8 @@ display: flex;
 flex: 3;
 padding-left: 10%;
 padding-right: 6%;
+height: 100vh;
+
 
 @media ${device.mobilexxS} { 
     display: none;
@@ -56,6 +58,7 @@ padding-right: 6%;
 export const PhoneOne = styled.div`
 flex: 1;
 margin-right: 1.5vw;
+position: relative;
 `;
 
 export const PhoneTwo = styled.div`

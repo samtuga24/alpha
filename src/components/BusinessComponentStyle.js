@@ -4,6 +4,7 @@ import { device } from './MobileDevice';
 export const BusinessContainer = styled.div`
 background: linear-gradient(180.24deg, #FFFFFF 2.66%, #F8EFE2 41.75%, #E9FBF2 94.4%);
 padding-top: 5%;
+
 `;
 
 export const BusinessImageDiv = styled.div`
@@ -69,65 +70,75 @@ padding-right: 10%;
     flex-direction: column-reverse;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device.mobileS} { 
     flex-direction: column-reverse;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device.mobilexS} { 
     flex-direction: column-reverse;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device. mobileM} { 
 flex-direction: column-reverse;
 padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
 
 @media ${device. mobileL} { 
     flex-direction: column-reverse;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 
 @media ${device. mobileLx} { 
     flex-direction: column-reverse;
     padding-left: 5%;
 padding-right: 5%;
+height: auto;
 }
-}
+
 @media ${device. tablet} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: 50vh;
 }
-}
+
 
 @media ${device.laptop} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 @media ${device. laptopL} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 @media ${device. desktop} { 
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 `;

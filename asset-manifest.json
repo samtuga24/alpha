@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alpha/static/css/main.ab5408c3.css",
-    "main.js": "/alpha/static/js/main.ce7e3bcf.js",
+    "main.js": "/alpha/static/js/main.0724ea2e.js",
     "static/js/787.67743081.chunk.js": "/alpha/static/js/787.67743081.chunk.js",
     "static/media/app-screen-1.svg": "/alpha/static/media/app-screen-1.d6f4bdfdfad7dce166d62a5be65e4f40.svg",
     "static/media/mobile-home-image.svg": "/alpha/static/media/mobile-home-image.b5f88632f5161f690c7556562b9b786e.svg",
@@ -18,6 +18,7 @@
     "static/media/Ladyhopping.svg": "/alpha/static/media/Ladyhopping.05866ab6829be006c95d5d7cac28dabc.svg",
     "static/media/app-screen-2.svg": "/alpha/static/media/app-screen-2.3c334f21669367cc2d952954a2255d99.svg",
     "static/media/variety-background.svg": "/alpha/static/media/variety-background.2b62334381e16495fa36128069895852.svg",
+    "static/media/mobile-phone.svg": "/alpha/static/media/mobile-phone.c35d81b97558a02ebdf38afc9c3cea38.svg",
     "static/media/intro-background.svg": "/alpha/static/media/intro-background.9c895ead948a99cc2cdf906480d7a9b6.svg",
     "static/media/customer.svg": "/alpha/static/media/customer.c72a9974ac53cefa9e3e144d0359fd46.svg",
     "static/media/customer-desktop.svg": "/alpha/static/media/customer-desktop.a680652ee3e8167bdd77a79d34be3f2f.svg",
@@ -26,7 +27,6 @@
     "static/media/nurture.svg": "/alpha/static/media/nurture.9e08e1d1b9050d875791c029d35325a5.svg",
     "static/media/Poppins-Regular.ttf": "/alpha/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/feature-background.svg": "/alpha/static/media/feature-background.86bc1794baab9ad23dcf0251d3a1ad15.svg",
-    "static/media/mobile-phone-two.svg": "/alpha/static/media/mobile-phone-two.14e0d090b552eea833db6dc0957a26c5.svg",
     "static/media/question-image-2.svg": "/alpha/static/media/question-image-2.95d86761aa3e6f9a353fd4556d0534d9.svg",
     "static/media/exclusive-phone-icon.svg": "/alpha/static/media/exclusive-phone-icon.eb19f4ae6c5ea047bfb8b4c62c187e1e.svg",
     "static/media/create-third.svg": "/alpha/static/media/create-third.dee87afbf3b78828d40aa310b4c9947d.svg",
@@ -112,11 +112,11 @@
     "static/media/step-1.svg": "/alpha/static/media/step-1.455ad37f705beb9f75708c3d1c65f41e.svg",
     "static/media/arrow-down.svg": "/alpha/static/media/arrow-down.59a8c9963271d395a90e41fa2de81d1d.svg",
     "main.ab5408c3.css.map": "/alpha/static/css/main.ab5408c3.css.map",
-    "main.ce7e3bcf.js.map": "/alpha/static/js/main.ce7e3bcf.js.map",
+    "main.0724ea2e.js.map": "/alpha/static/js/main.0724ea2e.js.map",
     "787.67743081.chunk.js.map": "/alpha/static/js/787.67743081.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab5408c3.css",
-    "static/js/main.ce7e3bcf.js"
+    "static/js/main.0724ea2e.js"
   ]
 }

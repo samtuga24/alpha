@@ -75,6 +75,8 @@ position: relative;
 export const MobileWrapper = styled.div`
 padding-right: 5%;
 padding-left: 5%;
+height: auto;
+
 @media ${device.mobilexxS} { 
     display: flex;
 }
@@ -117,6 +119,7 @@ padding-left: 5%;
 
 export const PhoneTwoWrap = styled.div`
 width: 100%;
+
 `;
 
 

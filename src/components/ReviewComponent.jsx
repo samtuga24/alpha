@@ -2,7 +2,7 @@ import React from 'react'
 import phone_one from '../icons/app-screen-1.svg'
 import phone_two from '../icons/app-screen-2.svg'
 import phone_three from '../icons/app-screen-3.svg'
-import mobile_phone from '../icons/mobile-phone-two.svg'
+import mobile_phone from '../icons/mobile-phone.svg'
 import { Container, Div, MobileWrapper, PhoneOne, PhoneThree, PhoneTwo, PhoneTwoWrap, Review, Wrapper } from './ReviewComponentStyle'
 
 export const ReviewComponent = () => {
